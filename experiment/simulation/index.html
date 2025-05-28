@@ -1,11 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
+  <title>Adipic Acid Synthesis Simulator</title>
+ 
 	<!-- Add CSS at the head of HTML file -->
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 		<!-- Your code goes here-->
+	<h1>🧪 Adipic Acid Synthesis Simulator</h1>
+  <div class="sim-box">
+    <p>Enter the quantities below to begin the experiment:</p>
+
+    <input type="number" id="cyclohexanol" placeholder="Cyclohexanol (g)">
+    <input type="number" id="cyclohexanone" placeholder="Cyclohexanone (g)">
+    <input type="number" id="nitric" placeholder="Nitric Acid (mL)">
+    <br>
+    <button class="btn" onclick="runSynthesis()">Start Synthesis</button>
+
+    <div id="result" class="output"></div>
+  </div>
 
 	<!-- Add JS at the bottom of HTML file --> 
         <script src="./js/main.js"></script>
