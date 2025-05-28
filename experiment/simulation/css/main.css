@@ -1,1 +1,60 @@
 /* You CSS goes in here */
+    body {
+      font-family: Arial, sans-serif;
+      background: #eef2f3;
+      text-align: center;
+      padding: 30px;
+    }
+
+    h1 {
+      color: #2c3e50;
+    }
+
+    .sim-box {
+      background: #ffffff;
+      border-radius: 12px;
+      max-width: 600px;
+      margin: auto;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    input {
+      padding: 10px;
+      margin: 10px;
+      width: 200px;
+      font-size: 16px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .btn {
+      background: #27ae60;
+      color: white;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+
+    .btn:hover {
+      background: #1e8449;
+    }
+
+    .output {
+      margin-top: 20px;
+      font-size: 16px;
+      text-align: left;
+    }
+
+    .success {
+      color: green;
+      font-weight: bold;
+    }
+
+    .error {
+      color: red;
+      font-weight: bold;
+    }
