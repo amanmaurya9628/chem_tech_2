@@ -1,28 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-  <title>Adipic Acid Synthesis Simulator</title>
- 
-	<!-- Add CSS at the head of HTML file -->
-    <link rel="stylesheet" href="./css/main.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adipic Acid Yield Simulator</title>
+  <!-- Add CSS at the head of HTML file -->
+   <link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-		<!-- Your code goes here-->
-	<h1>🧪 Adipic Acid Synthesis Simulator</h1>
-  <div class="sim-box">
-    <p>Enter the quantities below to begin the experiment:</p>
-
-    <input type="number" id="cyclohexanol" placeholder="Cyclohexanol (g)">
-    <input type="number" id="cyclohexanone" placeholder="Cyclohexanone (g)">
-    <input type="number" id="nitric" placeholder="Nitric Acid (mL)">
-    <br>
-    <button class="btn" onclick="runSynthesis()">Start Synthesis</button>
-
-    <div id="result" class="output"></div>
+  <!-- Your code goes here -->
+  <h1>🧪 Adipic Acid Synthesis Simulator</h1>
+  <div class="container">
+    <div class="beaker" id="beaker-cyclohexanol">
+      <div class="liquid-container">
+        <div class="liquid cyclohexanol" style="height: 0%;"></div>
+      </div>
+      <label class="label" for="input-cyclohexanol">Cyclohexanol (gm)</label>
+      <input type="number" id="input-cyclohexanol" min="0" max="1000" step="10" value="0" />
+    </div>
+    <div class="add">+</div>
+    <div class="beaker" id="beaker-cyclohexanone">
+      <div class="liquid-container">
+        <div class="liquid cyclohexanone" style="height: 0%;"></div>
+      </div>
+      <label class="label" for="input-cyclohexanone">Cyclohexanone (gm)</label>
+      <input type="number" id="input-cyclohexanone" min="0" max="1000" step="10" value="0" />
+    </div>
+    <div class="add">+</div>
+    <div class="beaker" id="beaker-nitricacid">
+      <div class="liquid-container">
+        <div class="liquid nitricacid" style="height: 0%;"></div>
+      </div>
+      <label class="label" for="input-nitricacid">Nitric Acid (mL)</label>
+      <input type="number" id="input-nitricacid" min="0" max="1000" step="10" value="0" />
+    </div><div class="add">=</div>
+    <div class="result-container">
+    <div class="beaker" id="beaker-result" style="margin: 2rem auto 0; width: 200px; height: 320px;">
+      <div class="liquid-container">
+        <div class="liquid adipicacid" style="height: 0%;"></div>
+      </div>
+      <div class="label">Estimated Adipic Acid Yield (mL)</div>
+      <div id="yield-value" style="font-weight: 700; font-size: 2rem; margin-top: 0.5rem; color: #1a6b1a;">0</div>
+    </div>
+  </div>
   </div>
 
-	<!-- Add JS at the bottom of HTML file --> 
-        <script src="./js/main.js"></script>
-</body>
-</html>
+  <button id="mixBtn">Mix Liquids</button>
+
+  <h2>Experiment Results</h2>
+<table id="resultsTable">
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Cyclohexanol (gm)</th>
+      <th>Cyclohexanone (gm)</th>
+      <th>Nitric Acid (mL)</th>
+      <th>Yield (mL)</th>
+    </tr>
+  </thead>
+  <tbody></tbody>
+</table>
+
+  <!-- Add JS at the bottom of HTML file -->
+  <script src="./js/main.js"></script>
+</body> 
+
+</html> 

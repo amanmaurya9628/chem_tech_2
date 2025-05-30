@@ -1,60 +1,192 @@
-/* You CSS goes in here */
-    body {
-      font-family: Arial, sans-serif;
-      background: #eef2f3;
-      text-align: center;
-      padding: 30px;
-    }
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(135deg, #e7f0fd, #c8d7f7);
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+h1 {
+  margin-bottom: 1rem;
+  font-weight: 700;
+  color: #0a3d62;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 100px;
+}
+.container {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.beaker {
+  position: relative;
+  width: 150px;
+  height: 260px;
+  background: #f5f7fa;
+  border: 3px solid #5a6d8a;
+  border-radius: 0 0 40px 40px;
+  box-shadow: inset 0 6px 10px #cfd4e0, 0 8px 15px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  box-sizing: border-box;
+}
+.beaker::before {
+  content: "";
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 30px;
+  border: 3px solid #5a6d8a;
+  border-bottom: none;
+  border-radius: 50% 50% 0 0;
+  background: radial-gradient(circle at 50% 20%, #d7e2f2 60%, transparent 100%);
+}
+.label {
+  margin-top: 8px;
+  font-weight: 600;
+  color: #222;
+  text-align: center;
+}
+.liquid-container {
+  position: relative;
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 24px;
+  overflow: hidden;
+  border-radius: 0 0 30px 30px;
+  background: repeating-linear-gradient(
+    45deg,
+    #edf2fb,
+    #edf2fb 5px,
+    #d3dfef 5px,
+    #d3dfef 10px
+  );
+}
+.liquid {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+  transition: height 0.6s ease;
+  box-shadow: inset 0 4px 6px rgba(255, 255, 255, 0.5);
+  filter: drop-shadow(0 1px 1px rgba(0, 0, 0, 0.1));
+}
+/* Colors for each liquid */
+.liquid.cyclohexanol {
+  background: linear-gradient(180deg, #ff6b6b, #c0392b);
+}
+.liquid.cyclohexanone {
+  background: linear-gradient(180deg, #4a90e2, #286090);
+}
+.liquid.nitricacid {
+  background: linear-gradient(180deg, #f8e71c, #f5a623);
+}
+.liquid.adipicacid {
+  background: linear-gradient(180deg, #33cc33, #1a6b1a);
+}
+input[type="number"] {
+  width: 80px;
+  margin-top: 12px;
+  font-size: 1rem;
+  padding: 6px;
+  border: 2px solid #5a6d8a;
+  border-radius: 6px;
+  text-align: center;
+  outline-offset: 2px;
+  transition: border-color 0.3s ease;
+}
+input[type="number"]:focus {
+  border-color: #0a3d62;
+}
+button {
+  margin-top: 2rem;
+  background-color: #0a3d62;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 40px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 5px 15px rgba(10, 61, 98, 0.5);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+button:hover {
+  background-color: #25f33a;
+  box-shadow: 0 7px 20px rgba(15, 74, 128, 0.7);
+}
+.result-container {
+  margin-top: 3rem;
+  text-align: center;
+}
+.result-label {
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-bottom: 0.6rem;
+  color: #155724;
+}
+@keyframes mix {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 
-    h1 {
-      color: #2c3e50;
-    }
+.beaker {
+  transition: transform 0.5s ease;
+}
 
-    .sim-box {
-      background: #ffffff;
-      border-radius: 12px;
-      max-width: 600px;
-      margin: auto;
-      padding: 20px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    }
+.mixing {
+  animation: mix 1s forwards;
+}
 
-    input {
-      padding: 10px;
-      margin: 10px;
-      width: 200px;
-      font-size: 16px;
-      border-radius: 6px;
-      border: 1px solid #ccc;
-    }
+.liquid {
+  transition: height 1s ease;
+}
 
-    .btn {
-      background: #27ae60;
-      color: white;
-      padding: 12px 24px;
-      border: none;
-      border-radius: 8px;
-      font-size: 16px;
-      cursor: pointer;
-      margin-top: 15px;
-    }
+.green {
+  background-color: green;
+}
+.add{
+  font-size: 100px;
+  color: #1a6b1a;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  overflow: hidden;
+}
 
-    .btn:hover {
-      background: #1e8449;
-    }
+th, td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
 
-    .output {
-      margin-top: 20px;
-      font-size: 16px;
-      text-align: left;
-    }
+th {
+  background-color: #007bff;
+  color: white;
+}
 
-    .success {
-      color: green;
-      font-weight: bold;
-    }
-
-    .error {
-      color: red;
-      font-weight: bold;
-    }
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
