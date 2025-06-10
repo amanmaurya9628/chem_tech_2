@@ -2,99 +2,56 @@
 
 
 
-Experiment 1: Adipic Acid Yield Estimation Simulator
-### 1. Story Outline
-The aim of this virtual experiment is to help students understand how different quantities of Cyclohexanol, Cyclohexanone, and Nitric Acid affect the yield of Adipic Acid. This simulation mimics a real-life laboratory experiment where a user virtually mixes three chemicals and observes the product yield. It is designed to be interactive, visual, and educational—providing learners with practical experience in an entirely digital environment.
+## Storyboard
 
-Through multiple trials, users develop a deeper understanding of reaction conditions, limiting reagents, and the concept of yield optimization. This simulation not only supports students in their chemistry curriculum but also encourages scientific reasoning and inquiry-based learning.
+Delete this line before submission : The core principle of storyboarding is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
+
+Experiment 1: Name of the Experiment
+
+### 1. Story Outline
+
+Describe outline here ( Guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
 
 ### 2. Story
-This experiment places the learner in a virtual chemical lab setup, where they can perform the synthesis of Adipic Acid by adjusting the quantities of Cyclohexanol, Cyclohexanone, and Nitric Acid. The interface shows beakers for each reactant, along with input fields for adding specified amounts.
 
-The user inputs the values and presses the "Mix Liquids" button. The simulator processes the reaction behind the scenes and visually updates the product beaker to show the resulting yield. A yield value in milliliters is displayed, and all trials are recorded in a table for comparison and analysis. Through this process, the user learns how reactant proportions affect the efficiency and outcome of the reaction.
+Describe the Story introduction here (Guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
 
-### 2.1 Set the Visual Stage Description
-The simulator page opens with a clean layout showing:
+#### 2.1 Set the Visual Stage Description:
+Describe here : (Guide : When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
 
-Title and description of the experiment.
+#### 2.2 Set User Objectives & Goals:
+Describe the objectives and goals in details here : (Guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. in descriptive))
 
-Three vertical beakers labeled with chemical names: Cyclohexanol, Cyclohexanone, and Nitric Acid.
+#### 2.3 Set the Pathway Activities:
 
-Input boxes below each beaker for entering amounts.
+Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in introductory & pedagogy documnets.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
 
-A central "Mix Liquids" button.
+##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-A result beaker labeled "Adipic Acid Yield" with an animated liquid fill based on yield.
+Describe the challenges Here : (Guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
 
-A table below to track and compare previous trials.
-The colors and layout are designed to resemble a real lab bench setup.
+##### 2.5 Allow pitfalls:
+Describe the pitfalls here: (Guide : while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive)
 
-### 2.2 Set User Objectives & Goals
-Understand the relationship between chemical reactant quantities and the yield of Adipic Acid.
+##### 2.6 Conclusion:
+Describe conclusion here : (Guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
 
-Learn how to mix reactants and analyze the results through virtual trial and error.
+##### 2.7 Equations/formulas: NA
+Type equations here : (Guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
+Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
 
-Develop logical reasoning about limiting reagents and optimization in chemical reactions.
-
-Record data from each trial to compare results and derive conclusions.
-
-### 2.3 Set Pathway Activities
-The user first reads a short description or objective.
-
-Inputs quantities for each chemical via number input fields.
-
-Clicks on the "Mix Liquids" button to simulate the chemical reaction.
-
-Observes the animated result and the numeric yield value.
-
-Reviews the updated results table that logs each trial.
-
-Changes input values to perform additional experiments and better understand the process.
-
-### 2.4 Set Challenges and Questions/Complexity/Variations in Questions
-Users may be challenged with questions like:
-
-"What combination gives the highest yield?"
-
-"Is there an optimal ratio between Cyclohexanol and Cyclohexanone?"
-
-A random variation in efficiency could be introduced to simulate real-world deviations.
-
-Later versions could include temperature or time as variables to add complexity.
-
-### 2.5 Allow Pitfalls
-If a user inputs too little or too much of one chemical, the yield will decrease.
-
-The simulator can give warnings like:
-
-“Yield is low – possibly due to imbalance in reactants.”
-
-“No product formed – check input values.”
-
-This helps users learn to balance reactants and think critically about proportions.
-
-### 2.6 Conclusion
-At the end of the simulation, the system can display:
-
-Total number of trials.
-
-Highest yield achieved.
-
-Number of incorrect or unbalanced trials.
-This provides a sense of accomplishment and insight into how their inputs influenced results. The user will take away a clearer understanding of how chemical reactions depend on quantity balance and experimental control.
-
-### 2.7 Equations/formulas: NA
-No mathematical formulas are included directly in the story. Refer to supplementary sheets for any backend calculations.
 
 ### 3. Flowchart
-Link: Flowchart (Google Drawings)
-(Store this in the /flowchart folder and export a .png copy as well)
+Link to flow chart Here : Store in the  /flowchart folder within pedagogy folder in your repo
+<br>
+(Guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
 
 ### 4. Mindmap
-Link: Mindmap PDF
-(Store this in /mindmap folder in .mm and .png, and share .pdf version here)
+ Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
+ <br>
+ (Guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
 ### 5. Storyboard
-Link: Storyboard (.gif file)
-(Create using WonderUnit Storyboarder or similar; include sketch descriptions, scene durations, and actions)
 
+Link the storyboard (.gif file ) in here :
+(Guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool).
