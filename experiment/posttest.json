@@ -2,29 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "1.What is the effect of increasing the amount of cyclohexanol in the simulator while keeping others constant?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
-      },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
-    },
-    {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "Decreases the yield",
+        "b": " No effect",
+        "c": "Increases the yield (up to a point)",
+        "d": "Converts into nitric acid"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -34,6 +17,71 @@
       },
       "correctAnswer": "c",
       "difficulty": "beginner"
-    }
+    },
+    {
+      "question": "2.In the simulation, which component is assumed to be in excess?",
+      "answers": {
+        "a": "Cyclohexanol",
+        "b": "Cyclohexanone",
+        "c": "Nitric Acid",
+        "d": " Adipic Acid"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+     {
+      "question": "3.The visual height of liquid in each beaker in the simulator represents:",
+      "answers": {
+        "a": " Temperature",
+        "b": " pH level",
+        "c": "Volume or mass of the substance",
+        "d": "Pressure"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+       "correctAnswer": "c",
+      "difficulty": "beginner"
+        {
+      "question": "4.Which of the following best describes the output displayed in the simulation?",
+      "answers": {
+        "a": "Molecular weight of adipic acid",
+        "b": "Boiling point of reactants",
+        "c": " Estimated yield in mL",
+        "d": "Molarity of nitric acid"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+       "correctAnswer": "c",
+      "difficulty": "beginner"
+        {
+      "question": "5.Why is it important to simulate chemical synthesis before real experimentation?",
+      "answers": {
+        "a": "To avoid manual calculations",
+        "b": "To learn software programming",
+        "c": "For safety and better understanding",
+        "d": "To create random data"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+        "correctAnswer": "c",
+      "difficulty": "beginner"
   ]
 }
