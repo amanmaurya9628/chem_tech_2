@@ -2,12 +2,12 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "Which of the following is used as a starting material in the synthesis of adipic acid?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Benzene",
+        "b": " Cyclohexanol",
+        "c": " Ethanol",
+        "d": " Acetic acid"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -15,16 +15,50 @@
         "c": "Explanation 2",
         "d": "Explanation 2"
       },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the role of nitric acid in the preparation of adipic acid?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": " Catalyst",
+        "b": " Solvent",
+        "c": "Reducing agent",
+        "d": "Oxidizing agent"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "d",
+      "difficulty": "beginner"
+    },
+      {
+      "question": "Adipic acid is primarily used in the production of",
+      "answers": {
+        "a": " Polyethylene",
+        "b": " Nylon-6,6",
+        "c": "PVC",
+        "d": "Polystyrene"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+      {
+      "question": "Cyclohexanol and cyclohexanone are:",
+      "answers": {
+        "a": " Alkanes",
+        "b": "Aromatic compounds",
+        "c": "Cycloaliphatic compounds",
+        "d": "Carboxylic acids"
       },
       "explanations": {
         "a": "Explanation 1  <a href='www.google.com'>here</a>",
@@ -33,6 +67,23 @@
         "d": "Explanation 2"
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+      {
+      "question": "In which phase does the oxidation of cyclohexanol typically occur in the lab",
+      "answers": {
+        "a": "Gas phase",
+        "b": "Liquid phase",
+        "c": "Solid phase",
+        "d": "Plasma state"
+      },
+      "explanations": {
+        "a": "Explanation 1  <a href='www.google.com'>here</a>",
+        "b": "Explanation 2",
+        "c": "Explanation 2",
+        "d": "Explanation 2"
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
