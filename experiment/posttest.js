@@ -90,17 +90,47 @@
 
   const myQuestions = [
     {
-      question: "On increasing the radius of the steel ball to double its value the terminal velocity of the ball become box:",  ///// Write the question inside double quotes
+      question: "1.What is the effect of increasing the amount of cyclohexanol in the simulator while keeping others constant?",  ///// Write the question inside double quotes
       answers: {
-        a: " double",                  ///// Write the option 1 inside double quotes
-        b: "four times",                  ///// Write the option 2 inside double quotes
-        c: "eight times",                  ///// Write the option 3 inside double quotes
-        d: "sixteen times"                   ///// Write the option 4 inside double quotes
+        a: "  Decreases the yield",                  ///// Write the option 1 inside double quotes
+        b: "No effect",                  ///// Write the option 2 inside double quotes
+        c: "Increases the yield (up to a point)",                  ///// Write the option 3 inside double quotes
+        d: "Converts into nitric acid"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },
 
     {
+      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increases",                  ///// Write the option 1 inside double quotes
+        b: "decreases",                  ///// Write the option 2 inside double quotes
+        c: "remains constant",                  ///// Write the option 3 inside double quotes
+        d: "NOT"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below 
+    	   {
+      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increases",                  ///// Write the option 1 inside double quotes
+        b: "decreases",                  ///// Write the option 2 inside double quotes
+        c: "remains constant",                  ///// Write the option 3 inside double quotes
+        d: "NOT"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below 
+    	   {
+      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      answers: {
+        a: "Increases",                  ///// Write the option 1 inside double quotes
+        b: "decreases",                  ///// Write the option 2 inside double quotes
+        c: "remains constant",                  ///// Write the option 3 inside double quotes
+        d: "NOT"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "a"                ///// Write the correct option inside double quotes
+    },                                  ///// To add more questions, copy the section below 
+    	   {
       question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
       answers: {
         a: "Increases",                  ///// Write the option 1 inside double quotes
