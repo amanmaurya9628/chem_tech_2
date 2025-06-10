@@ -101,44 +101,44 @@
     },
 
     {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: "2.In the simulation, which component is assumed to be in excess?",  ///// Write the question inside double quotes
       answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+        a: " Cyclohexanol",                  ///// Write the option 1 inside double quotes
+        b: "Cyclohexanone",                  ///// Write the option 2 inside double quotes
+        c: " Nitric Acid",                  ///// Write the option 3 inside double quotes
+        d: "Adipic Acid"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: "3.The visual height of liquid in each beaker in the simulator represents:",  ///// Write the question inside double quotes
       answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+        a: "Temperature",                  ///// Write the option 1 inside double quotes
+        b: "pH level",                  ///// Write the option 2 inside double quotes
+        c: "Volume or mass of the substance",                  ///// Write the option 3 inside double quotes
+        d: " Pressure"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: "4.Which of the following best describes the output displayed in the simulation?",  ///// Write the question inside double quotes
       answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+        a: " Molecular weight of adipic acid",                  ///// Write the option 1 inside double quotes
+        b: " Boiling point of reactants",                  ///// Write the option 2 inside double quotes
+        c: "Estimated yield in mL",                  ///// Write the option 3 inside double quotes
+        d: "Molarity of nitric acid"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: " On increasing density of material of the falling ball its terminal velocity:",  ///// Write the question inside double quotes
+      question: "5.Why is it important to simulate chemical synthesis before real experimentation?",  ///// Write the question inside double quotes
       answers: {
-        a: "Increases",                  ///// Write the option 1 inside double quotes
-        b: "decreases",                  ///// Write the option 2 inside double quotes
-        c: "remains constant",                  ///// Write the option 3 inside double quotes
-        d: "NOT"                   ///// Write the option 4 inside double quotes
+        a: "To avoid manual calculations",                  ///// Write the option 1 inside double quotes
+        b: "To learn software programming",                  ///// Write the option 2 inside double quotes
+        c: "For safety and better understanding",                  ///// Write the option 3 inside double quotes
+        d: " To create random data"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
