@@ -2,16 +2,16 @@
 
    "details": [
        {
-			"Experiment": "Voltage Distribution Across String Insulators",     
-			"Lab": "Power System Lab",               
-			"Discipline": "Electronics Engineering",				 
+			"Experiment": "Preparation of adipic acid/paracetamol",     
+			"Lab": "chemistry lab",               
+			"Discipline": chemical Engineering",				 
 			"Technology": "HTML CSS Javascript"         
        }
    ],
 
    "developer": [
        {       
-      "Developer": "Mr. Rajeev Baghel",         
+      "Developer": "Dr.RAVISH KUMAR RAJPOOT",         
       "Institute": "REC Kannauj",         
       "InstituteAcronym": "RECK"   
        }
@@ -19,30 +19,25 @@
 
    "contributer": [
        {       
-			"Contributer": "Ridam Sharma",             
+			"Contributer": "VAIBHAV SINGH",             
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
 
        {       
-			"Contributer": "Dhananjay Singh Gaur",              
+			"Contributer": "AMAN KUMAR MAURYA",              
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
 
        {       
-			"Contributer": "Ichha Shukla",             
+			"Contributer": "SHASHANK SHARMA ",             
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        },
 
        {       
-			"Contributer": "Satish Kumar",              
-      "Institute": "REC Kannauj",               
-			"InstituteAcronym": "RECK"         
-       },
-       {       
-			"Contributer": "Shaili Chauhan",              
+			"Contributer": "BHAVYA VISHWAKARMA",              
       "Institute": "REC Kannauj",               
 			"InstituteAcronym": "RECK"         
        }
