@@ -90,46 +90,56 @@
 
   const myQuestions = [
     {
-      question: "1. जिस सिद्धांत पर विशिष्ट घूर्णन के प्रयोग का आधार है वह है:",  ///// Write the question inside double quotes
+      question: "1. Which of the following is used as a starting material in the synthesis of adipic acid",  ///// Write the question inside double quotes
       answers: {
-        a: "ध्रुवीकृत प्रकाश ऑप्टिकली सक्रिय माध्यम से गुजरते समय दो घटकों में विभाजित हो जाता है",                  ///// Write the option 1 inside double quotes
-        b: "ध्रुवीकृत प्रकाश ऑप्टिकली सक्रिय माध्यम से गुजरते समय घुमता है",                  ///// Write the option 2 inside double quotes
-        c: "ध्रुवीकृत प्रकाश पानी से गुजरते समय विचलित हो जाता है",                  ///// Write the option 3 inside double quotes
-        d: "इनमें से कोई नहीं"                   ///// Write the option 4 inside double quotes
+        a: "Benzene",                  ///// Write the option 1 inside double quotes
+        b: "Cyclohexanol",                  ///// Write the option 2 inside double quotes
+        c: "Ethanol",                  ///// Write the option 3 inside double quotes
+        d: "Acetic acid"                   ///// Write the option 4 inside double quotes
       },
       correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-     question: "2. शुगर घोल की सांद्रता बढ़ाने पर ध्रुवीकृत प्रकाश का घुमाव कोण:",  ///// Write the question inside double quotes
+     question: "2.What is the role of nitric acid in the preparation of adipic acid?",  ///// Write the question inside double quotes
       answers: {
-        a: "बढ़ता है",                  ///// Write the option 1 inside double quotes
-        b: " घटता है",                  ///// Write the option 2 inside double quotes
-        c: "अपरिवर्तित रहता है",                  ///// Write the option 3 inside double quotes
-        d: "इनमें से कोई नहीं"                   ///// Write the option 4 inside double quotes
+        a: " Catalyst",                  ///// Write the option 1 inside double quotes
+        b: " Solvent",                  ///// Write the option 2 inside double quotes
+        c: " Reducing agent",                  ///// Write the option 3 inside double quotes
+        d: "Oxidizing agent"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "d"                ///// Write the correct option inside double quotes
     },     
     {
-      question: "3. किसी भी घोल का विशिष्ट घूर्णन किस पर निर्भर करता है:",  ///// Write the question inside double quotes
+      question: "3.Adipic acid is primarily used in the production of:",  ///// Write the question inside double quotes
        answers: {
-         a: "सांद्रता",                  ///// Write the option 1 inside double quotes
-         b: "नलिका की लंबाई",                  ///// Write the option 2 inside double quotes
-         c: "तापमान",                  ///// Write the option 3 inside double quotes
-         d: "इनमें से कोई नहीं"                   ///// Write the option 4 inside double quotes
+         a: "Polyethylene",                  ///// Write the option 1 inside double quotes
+         b: " Nylon-6,6",                  ///// Write the option 2 inside double quotes
+         c: "PVC",                  ///// Write the option 3 inside double quotes
+         d: "Polystyrene"                   ///// Write the option 4 inside double quotes
+       },
+       correctAnswer: "b"                ///// Write the correct option inside double quotes
+     }, 
+     {
+      question: "4. Cyclohexanol and cyclohexanone are:",  ///// Write the question inside double quotes
+       answers: {
+         a: " Alkanes",                  ///// Write the option 1 inside double quotes
+         b: " Aromatic compounds",                  ///// Write the option 2 inside double quotes
+         c: "Cycloaliphatic compounds",                  ///// Write the option 3 inside double quotes
+         d: "Carboxylic acids"                   ///// Write the option 4 inside double quotes
        },
        correctAnswer: "c"                ///// Write the correct option inside double quotes
      }, 
-     {
-      question: "4. यदि नलिका की लंबाई बढ़ाई जाए तो किसी भी घोल का विशिष्ट घूर्णन:",  ///// Write the question inside double quotes
+      {
+      question: "4. In which phase does the oxidation of cyclohexanol typically occur in the lab?",  ///// Write the question inside double quotes
        answers: {
-         a: "बढ़ता है",                  ///// Write the option 1 inside double quotes
-         b: "घटता है",                  ///// Write the option 2 inside double quotes
-         c: "अपरिवर्तित रहता है",                  ///// Write the option 3 inside double quotes
-         d: "इनमें से कोई नहीं"                   ///// Write the option 4 inside double quotes
+         a: " Gas phase",                  ///// Write the option 1 inside double quotes
+         b: " Liquid phase",                  ///// Write the option 2 inside double quotes
+         c: "Solid phase",                  ///// Write the option 3 inside double quotes
+         d: " Plasma state"                   ///// Write the option 4 inside double quotes
        },
-       correctAnswer: "c"                ///// Write the correct option inside double quotes
-     },                              ///// To add more questions, copy the section below 
+       correctAnswer: "b"                ///// Write the correct option inside double quotes
+     },      ///// To add more questions, copy the section below 
     									                  ///// this line
 
 
