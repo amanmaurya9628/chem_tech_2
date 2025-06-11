@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "1.What is the effect of increasing the amount of cyclohexanol in the simulator while keeping others constant?",  ///// Write the question inside double quotes
+      question: "What is the effect of increasing the amount of cyclohexanol in the simulator while keeping others constant?",  ///// Write the question inside double quotes
       answers: {
         a: "  Decreases the yield",                  ///// Write the option 1 inside double quotes
         b: "No effect",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-      question: "2.In the simulation, which component is assumed to be in excess?",  ///// Write the question inside double quotes
+      question: "In the simulation, which component is assumed to be in excess?",  ///// Write the question inside double quotes
       answers: {
         a: " Cyclohexanol",                  ///// Write the option 1 inside double quotes
         b: "Cyclohexanone",                  ///// Write the option 2 inside double quotes
@@ -111,7 +111,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: "3.The visual height of liquid in each beaker in the simulator represents:",  ///// Write the question inside double quotes
+      question: "The visual height of liquid in each beaker in the simulator represents:",  ///// Write the question inside double quotes
       answers: {
         a: "Temperature",                  ///// Write the option 1 inside double quotes
         b: "pH level",                  ///// Write the option 2 inside double quotes
@@ -121,7 +121,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: "4.Which of the following best describes the output displayed in the simulation?",  ///// Write the question inside double quotes
+      question: "Which of the following best describes the output displayed in the simulation?",  ///// Write the question inside double quotes
       answers: {
         a: " Molecular weight of adipic acid",                  ///// Write the option 1 inside double quotes
         b: " Boiling point of reactants",                  ///// Write the option 2 inside double quotes
@@ -131,7 +131,7 @@
       correctAnswer: "c"                ///// Write the correct option inside double quotes
     },                                  ///// To add more questions, copy the section below 
     	   {
-      question: "5.Why is it important to simulate chemical synthesis before real experimentation?",  ///// Write the question inside double quotes
+      question: "Why is it important to simulate chemical synthesis before real experimentation?",  ///// Write the question inside double quotes
       answers: {
         a: "To avoid manual calculations",                  ///// Write the option 1 inside double quotes
         b: "To learn software programming",                  ///// Write the option 2 inside double quotes
