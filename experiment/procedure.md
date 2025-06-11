@@ -1,5 +1,5 @@
 
-### Procedure for Adipic Acid Synthesis Simulation
+### Adipic Acid Synthesis Simulation
 
 Preparation of Reactants
 Begin by selecting and measuring the required quantities of the following reactants:
