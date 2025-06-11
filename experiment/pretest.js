@@ -90,7 +90,7 @@
 
   const myQuestions = [
     {
-      question: "1. Which of the following is used as a starting material in the synthesis of adipic acid",  ///// Write the question inside double quotes
+      question: " Which of the following is used as a starting material in the synthesis of adipic acid",  ///// Write the question inside double quotes
       answers: {
         a: "Benzene",                  ///// Write the option 1 inside double quotes
         b: "Cyclohexanol",                  ///// Write the option 2 inside double quotes
@@ -101,7 +101,7 @@
     },
 
     {
-     question: "2.What is the role of nitric acid in the preparation of adipic acid?",  ///// Write the question inside double quotes
+     question: "What is the role of nitric acid in the preparation of adipic acid?",  ///// Write the question inside double quotes
       answers: {
         a: " Catalyst",                  ///// Write the option 1 inside double quotes
         b: " Solvent",                  ///// Write the option 2 inside double quotes
@@ -111,7 +111,7 @@
       correctAnswer: "d"                ///// Write the correct option inside double quotes
     },     
     {
-      question: "3.Adipic acid is primarily used in the production of:",  ///// Write the question inside double quotes
+      question: "Adipic acid is primarily used in the production of:",  ///// Write the question inside double quotes
        answers: {
          a: "Polyethylene",                  ///// Write the option 1 inside double quotes
          b: " Nylon-6,6",                  ///// Write the option 2 inside double quotes
@@ -121,7 +121,7 @@
        correctAnswer: "b"                ///// Write the correct option inside double quotes
      }, 
      {
-      question: "4. Cyclohexanol and cyclohexanone are:",  ///// Write the question inside double quotes
+      question: " Cyclohexanol and cyclohexanone are:",  ///// Write the question inside double quotes
        answers: {
          a: " Alkanes",                  ///// Write the option 1 inside double quotes
          b: " Aromatic compounds",                  ///// Write the option 2 inside double quotes
@@ -131,7 +131,7 @@
        correctAnswer: "c"                ///// Write the correct option inside double quotes
      }, 
       {
-      question: "4. In which phase does the oxidation of cyclohexanol typically occur in the lab?",  ///// Write the question inside double quotes
+      question: " In which phase does the oxidation of cyclohexanol typically occur in the lab?",  ///// Write the question inside double quotes
        answers: {
          a: " Gas phase",                  ///// Write the option 1 inside double quotes
          b: " Liquid phase",                  ///// Write the option 2 inside double quotes
