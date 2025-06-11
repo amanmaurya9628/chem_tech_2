@@ -1,5 +1,5 @@
 
-##  Theory: Adipic Acid Synthesis Simulator
+### Adipic Acid Synthesis Simulator
 
 Objective:
 To simulate the preparation of Adipic Acid through an oxidation reaction involving Cyclohexanol, Cyclohexanone, and Nitric Acid, and to visualize the estimated yield based on the input quantities.
